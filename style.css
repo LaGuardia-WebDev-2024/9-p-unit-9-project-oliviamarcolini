@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
 
 body {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
+  background-image: url("https://img.freepik.com/premium-photo/ultra-realistic-horror-game-scene-last-us-zombie_899449-586.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
   margin: auto;
    font-family: "Poetsen One", serif;
 }
 
 h1{
+  font-size: 35px;
+  color: white;
+  -webkit-text-stroke: .5px black;
+}
+
+h2{
   font-size: 30px;
   color: white;
+  -webkit-text-stroke: .5px black;
+  font-style: italic;
 }
 
 #myCanvas {
